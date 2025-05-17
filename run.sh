@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # Warna lucu buat log
